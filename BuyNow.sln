@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2E35EF43-7B4A-4A32-9C9D-F18898604B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyNow.Services.ProductAPI", "BuyNow.Services.ProductAPI\BuyNow.Services.ProductAPI.csproj", "{5E8423FA-C88E-4BB5-99F4-AE07FF61EED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E8423FA-C88E-4BB5-99F4-AE07FF61EED7} = {2E35EF43-7B4A-4A32-9C9D-F18898604B9F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E8423FA-C88E-4BB5-99F4-AE07FF61EED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8423FA-C88E-4BB5-99F4-AE07FF61EED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8423FA-C88E-4BB5-99F4-AE07FF61EED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8423FA-C88E-4BB5-99F4-AE07FF61EED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

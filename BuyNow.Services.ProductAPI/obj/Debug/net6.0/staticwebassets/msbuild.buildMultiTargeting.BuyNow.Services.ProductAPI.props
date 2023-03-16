@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BuyNow.Services.ProductAPI.props" />
+</Project>
