@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antonio.rocha\\Desktop\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj": {}
+    "C:\\git_teste\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antonio.rocha\\Desktop\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj": {
+    "C:\\git_teste\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antonio.rocha\\Desktop\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj",
+        "projectUniqueName": "C:\\git_teste\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj",
         "projectName": "BuyNow.Services.ProductAPI",
-        "projectPath": "C:\\Users\\antonio.rocha\\Desktop\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj",
+        "projectPath": "C:\\git_teste\\BuyNow\\BuyNow.Services.ProductAPI\\BuyNow.Services.ProductAPI.csproj",
         "packagesPath": "C:\\Users\\antonio.rocha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antonio.rocha\\Desktop\\BuyNow\\BuyNow.Services.ProductAPI\\obj\\",
+        "outputPath": "C:\\git_teste\\BuyNow\\BuyNow.Services.ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -67,6 +67,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
