@@ -23,7 +23,7 @@ public class ProductAPIController : ControllerBase
         try
         {
             IEnumerable<ProductDto> productDtos = await _productRepository.GetProducts();
-            _responseDto.Result = _responseDto;
+            _responseDto.Result = productDtos;
         }
         catch (Exception ex)
         {
@@ -42,6 +42,24 @@ public class ProductAPIController : ControllerBase
         {
             ProductDto productDto = await _productRepository.GetProductById(id);
             _responseDto.Result = productDto;
+        }
+        catch (Exception ex)
+        {
+            _responseDto.IsSucess = false;
+            _responseDto.ErrorMessages = new List<string>() {ex.ToString()};
+        }
+
+        return _responseDto;
+    }
+    
+    [HttpGet]
+    [Route("{type}")]
+    public async Task<object> Get(string productType)
+    {
+        try 
+        {
+            IEnumerable<ProductDto> productDtos = await _productRepository.GetProductByType(productType);
+            _responseDto.Result = productDtos;
         }
         catch (Exception ex)
         {

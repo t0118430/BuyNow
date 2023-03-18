@@ -19,4 +19,13 @@
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Migrations\20230315191743_InitialCreate.cs" />
+      <Compile Remove="Migrations\20230315191743_InitialCreate.Designer.cs" />
+      <Compile Remove="Migrations\20230316153209_FirstCreate.cs" />
+      <Compile Remove="Migrations\20230316153209_FirstCreate.Designer.cs" />
+      <Compile Remove="Migrations\20230316154854_InitialCreate.cs" />
+      <Compile Remove="Migrations\20230316154854_InitialCreate.Designer.cs" />
+    </ItemGroup>
+
 </Project>

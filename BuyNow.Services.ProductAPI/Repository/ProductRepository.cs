@@ -64,4 +64,10 @@ public class ProductRepository : IProductRepository
             return false;
         }
     }
+    
+    public async Task<IEnumerable<ProductDto>> GetProductByType(string productType)
+    {
+        List<Product> products = await _db.Products.Where(c => c.Type == productType).ToListAsync();
+        return _mapper.Map<List<ProductDto>>(products);
+    }
 }
